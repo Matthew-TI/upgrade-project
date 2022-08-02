@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#fundo-principal {
+    background: url(imagens/fundo.png);
+}
+
+#fundo-segundario {
+    background: url(imagens/fundo2.png);
+}
+
+
+#img-logo {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#img-capa {
+    position: relative;
+    bottom: 5px;
+}
+
+#area-principal {
+    width: 900px;
+    margin: auto;
+}
+
+#area-menu {
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+}
+
+#area-menu ul li {
+    list-style: none;
+}
+
+#area-menu li a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link, a:visited {
+    color: rgb(28, 24, 53);
+}
+
+#area-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Aréa do meio da pagina */
+
+#area-conteudo h2 {
+    color: rgb(28, 24, 53);
+}
+
+#area-conteudo p {
+    padding: 5px 2px;
+}
+
+#area-conteudo form p {
+    padding: 10px 0px;
+}
+
+input.text, input.email {
+    width: 25%;
+}
+
+textarea {
+    width: 25%;
+}
+
+input.submit {
+    padding: 2px;
+}
+
+.conteudo h3 {
+    padding-top: 3px;
+    color: rgb(28, 24, 53);
+}
+
+.conteudo ol {
+    padding: 20px;
+}
+
+.conteudo ul {
+    padding: 20px;
+}
+/* rodape */
+
+#rodape {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
